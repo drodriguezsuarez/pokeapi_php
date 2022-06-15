@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+    text-align: center;
+}
+
+input[type="text"], input[type="password"]{
+    outline: none;
+    padding: 20px;
+    display: block;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid black ;
+    margin: 20px auto;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input[type="submit"]{
+    padding: 10px;
+    color: whitesmoke;
+    background: red;
+    width: 320px;
+    margin: 20px auto;
+    margin-top: 0;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Press Start 2P', cursive;
+}
+
+input[type="submit"]:hover{
+    background-color: #f85d5d;
+}
+
+header{
+    border-bottom: 2px solid #fad503;
+    padding: 20px 0;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: #181717;
+}
